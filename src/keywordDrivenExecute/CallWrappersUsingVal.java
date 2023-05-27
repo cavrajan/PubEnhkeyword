@@ -27,8 +27,8 @@ public class CallWrappersUsingVal {
 	
 	public void getAndCallKeywordVal(String fileName) throws Exception {
 	
-		PropertyConfigurator.configure(".\\Properties\\log4j.properties");
-		
+	//	PropertyConfigurator.configure(".\\Properties\\log4j.properties");
+		PropertyConfigurator.configure("./Properties/log4j.properties");
 		FileInputStream file = new FileInputStream(new File(fileName));
 
 		// Create Workbook instance holding reference to .xlsx file
