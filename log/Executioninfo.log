@@ -1,0 +1,6 @@
+27-05-2023 14:49:08  INFO CallWrapperUsingValLine:52 - T02: Login verification test case started
+27-05-2023 14:49:08  INFO CallWrapperUsingValLine:67 - 13: 'launchBrowser' wrapper in use
+27-05-2023 14:49:08  INFO CallWrapperUsingValLine:79 - No Locator detail received or BULK file
+27-05-2023 14:49:08  INFO CallWrapperUsingValLine:82 - 'https://www.saucedemo.com/' data for processing
+27-05-2023 14:49:08  INFO CallWrapperUsingValLine:84 - 'ie' value for processing
+27-05-2023 14:49:08  INFO CallWrapperUsingValLine:149 - 2 Argument method /data,value1/
