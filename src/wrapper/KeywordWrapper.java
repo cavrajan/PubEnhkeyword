@@ -58,7 +58,7 @@ public class KeywordWrapper {
 	public KeywordWrapper() throws FileNotFoundException, IOException  {
 
 	//	PropertyConfigurator.configure(".\\Properties\\log4j.properties");
-		PropertyConfigurator.configure("./properties/log4j.properties");
+		PropertyConfigurator.configure("./Properties/log4j.properties");
 		
 		prop = loadObjectRepository("Bulk.properties");	
 		
@@ -248,7 +248,9 @@ public class KeywordWrapper {
 	public void launchBrowser(String url, String browser) throws IOException {
 		//	String browser = prop.getProperty("Browser.Name");
 		//	String path = "D:\\files\\driver";
-			String path = "./driver";
+			String path = "./"
+					+ ""
+					+ "driver";
 		//	String url = prop.getProperty("LoginPage.Url");
 			try {
 
