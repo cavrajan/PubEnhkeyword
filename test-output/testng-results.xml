@@ -11,12 +11,12 @@
       <![CDATA[STEP3]]>
     </line>
   </reporter-output>
-  <suite name="Payment Gateway" duration-ms="48537" started-at="2020-06-03T14:28:10Z" finished-at="2020-06-03T14:28:59Z">
+  <suite name="Sauce Demo Lab" duration-ms="962" started-at="2023-05-27T06:32:46Z" finished-at="2023-05-27T06:32:47Z">
     <groups>
     </groups>
-    <test name="Regression" duration-ms="48537" started-at="2020-06-03T14:28:10Z" finished-at="2020-06-03T14:28:59Z">
+    <test name="Regression" duration-ms="962" started-at="2023-05-27T06:32:46Z" finished-at="2023-05-27T06:32:47Z">
       <class name="keywordDrivenExecute.FieldValidateScripts">
-        <test-method status="FAIL" signature="runScripts()[pri:0, instance:keywordDrivenExecute.FieldValidateScripts@17d99928]" name="runScripts" duration-ms="48537" started-at="2020-06-03T19:58:10Z" finished-at="2020-06-03T19:58:59Z">
+        <test-method status="FAIL" signature="runScripts()[pri:0, instance:keywordDrivenExecute.FieldValidateScripts@6fffcba5]" name="runScripts" duration-ms="951" started-at="2023-05-27T12:02:46Z" finished-at="2023-05-27T12:02:47Z">
           <exception class="atu.testng.reports.exceptions.ATUReporterStepFailedException">
             <full-stacktrace>
               <![CDATA[[ATU Custom Reporter Step Failed Exception]
@@ -58,5 +58,5 @@
         </test-method> <!-- runScripts -->
       </class> <!-- keywordDrivenExecute.FieldValidateScripts -->
     </test> <!-- Regression -->
-  </suite> <!-- Payment Gateway -->
+  </suite> <!-- Sauce Demo Lab -->
 </testng-results>

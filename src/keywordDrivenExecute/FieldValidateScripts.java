@@ -38,7 +38,7 @@ public class FieldValidateScripts {
 			props.load(in);
 			in.close();
 			FileOutputStream out = new FileOutputStream("atu.properties");
-			props.setProperty("atu.reports.dir", "ATU Reports\\" + time);
+			props.setProperty("atu.reports.dir", "ATU_Reports\\" + time);
 			props.store(out, null);
 			out.close();
 		} catch (IOException e) {

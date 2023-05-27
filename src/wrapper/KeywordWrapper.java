@@ -252,6 +252,7 @@ public class KeywordWrapper {
 			try {
 
 				if (browser.equalsIgnoreCase("firefox")) {
+					System.setProperty("webdriver.firefox.driver", path + "\\geckodriver.exe");
 					driver = new FirefoxDriver();
 				} else if (browser.equalsIgnoreCase("chrome")) {
 					System.setProperty("webdriver.chrome.driver", path + "\\chromedriver.exe");
@@ -276,8 +277,8 @@ public class KeywordWrapper {
 
 				ATUReports.setWebDriver(driver);
 			//	ATUReports.indexPageDescription = "Login Credentials Verification";
-				ATUReports.setAuthorInfo("Testing Services", Utils.getCurrentTime(), "1.0");
-				ATUReports.setTestCaseReqCoverage("Payment Gateway Automation");
+				ATUReports.setAuthorInfo("Varadaajan CA", Utils.getCurrentTime(), "1.0");
+				ATUReports.setTestCaseReqCoverage("Selenium Automation");
 			} catch (Exception e) {
 				ATUReports.add("Browser opening failed", browser, LogAs.FAILED, new CaptureScreen(ScreenshotOf.DESKTOP));
 			}
