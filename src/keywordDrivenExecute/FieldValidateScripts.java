@@ -54,7 +54,8 @@ public class FieldValidateScripts {
 			
 			CallWrappersUsingVal em=new CallWrappersUsingVal();
 		try {
-			FileInputStream fis = new FileInputStream(new File(System.getProperty("user.dir")+"\\keywords\\KeywordDriver.xls"));
+		//	FileInputStream fis = new FileInputStream(new File(System.getProperty("user.dir")+"\\keywords\\KeywordDriver.xls"));
+			FileInputStream fis = new FileInputStream(new File(System.getProperty("user.dir")+"/keywords/KeywordDriver.xls"));
 			HSSFWorkbook workbook = new HSSFWorkbook(fis);
 			HSSFSheet sheet = workbook.getSheetAt(0);	
 			// get the number of rows
