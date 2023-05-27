@@ -69,7 +69,8 @@ public class CallWrappersUsingVal {
 					if(!data1.equals(""))  {
 						Page = data1.substring(0,data1.indexOf("."));
 						logger.info("'"+Page+"' Page property file will be retrieved");
-						locator = loadObjectRepository(".\\Properties\\"+Page+".properties").getProperty(data1);
+				//		locator = loadObjectRepository(".\\Properties\\"+Page+".properties").getProperty(data1);
+						locator = loadObjectRepository("./Properties/"+Page+".properties").getProperty(data1);
 						logger.info("'"+locator+"' locator value is retrieved");
 					} 
 		//			else if (((data1.substring(0,data1.indexOf("."))).equals ("bulk"))) {
