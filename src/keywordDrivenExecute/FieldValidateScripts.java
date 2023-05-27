@@ -69,7 +69,8 @@ public class FieldValidateScripts {
 					System.out.println(row.getCell(3).getStringCellValue()+"\n");
 					if(row.getCell(3).getStringCellValue().toLowerCase().equals("yes")){
 						ATUReports.add("Executing Test Case - "+row.getCell(1).getStringCellValue(), LogAs.INFO, new CaptureScreen(ScreenshotOf.BROWSER_PAGE));
-						em.getAndCallKeywordVal("./keywords\\"+row.getCell(1).getStringCellValue()+".xls");
+				//		em.getAndCallKeywordVal("./keywords\\"+row.getCell(1).getStringCellValue()+".xls");
+						em.getAndCallKeywordVal("./keywords/"+row.getCell(1).getStringCellValue()+".xls");
 					}
 				} catch (Exception e) {
 					// TODO Auto-generated catch block
