@@ -57,8 +57,8 @@ public class KeywordWrapper {
 	
 	public KeywordWrapper() throws FileNotFoundException, IOException  {
 
-		PropertyConfigurator.configure(".\\Properties\\log4j.properties");
-//		PropertyConfigurator.configure("./properties/log4j.properties");
+	//	PropertyConfigurator.configure(".\\Properties\\log4j.properties");
+		PropertyConfigurator.configure("./properties/log4j.properties");
 		
 		prop = loadObjectRepository("Bulk.properties");	
 		
@@ -248,7 +248,7 @@ public class KeywordWrapper {
 	public void launchBrowser(String url, String browser) throws IOException {
 		//	String browser = prop.getProperty("Browser.Name");
 		//	String path = "D:\\files\\driver";
-			String path = ".\\driver";
+			String path = "./driver";
 		//	String url = prop.getProperty("LoginPage.Url");
 			try {
 
@@ -256,7 +256,7 @@ public class KeywordWrapper {
 					System.setProperty("webdriver.firefox.driver", path + "\\geckodriver.exe");
 					driver = new FirefoxDriver();
 				} else if (browser.equalsIgnoreCase("chrome")) {
-					System.setProperty("webdriver.chrome.driver", path + "\\chromedriver.exe");
+					System.setProperty("webdriver.chrome.driver", path + "/chromedriver.exe");
 					driver = new ChromeDriver();
 				} else if (browser.equalsIgnoreCase("ie")) {
 					System.setProperty("webdriver.ie.driver", path + "\\IEDriverServer.exe");
