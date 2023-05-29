@@ -248,9 +248,9 @@ public class KeywordWrapper {
 	public void launchBrowser(String url, String browser) throws IOException {
 		//	String browser = prop.getProperty("Browser.Name");
 		//	String path = "D:\\files\\driver";
-			String path = "./"
-					+ ""
-					+ "driver";
+			String path = "./driver";
+				//	+ ""
+				//	+ "driver";
 		//	String url = prop.getProperty("LoginPage.Url");
 			try {
 
