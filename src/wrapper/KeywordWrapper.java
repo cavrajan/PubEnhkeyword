@@ -248,7 +248,7 @@ public class KeywordWrapper {
 	public void launchBrowser(String url, String browser) throws IOException {
 		//	String browser = prop.getProperty("Browser.Name");
 		//	String path = "D:\\files\\driver";
-			String path = "./driver";
+			String path = "\\driver";
 				//	+ ""
 				//	+ "driver";
 		//	String url = prop.getProperty("LoginPage.Url");
@@ -257,8 +257,13 @@ public class KeywordWrapper {
 				if (browser.equalsIgnoreCase("firefox")) {
 					System.setProperty("webdriver.firefox.driver", path + "\\geckodriver.exe");
 					driver = new FirefoxDriver();
-				} else if (browser.equalsIgnoreCase("chrome")) {
+				} else if (browser.equalsIgnoreCase("Unixchrome")) {
 					System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/driver/chromedriver");
+			//		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\driver\\chromedriver.exe");
+					driver = new ChromeDriver();
+				} else if (browser.equalsIgnoreCase("chrome")) {
+					System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/driver/chromedriver.exe");
+			//		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\driver\\chromedriver.exe");
 					driver = new ChromeDriver();
 				} else if (browser.equalsIgnoreCase("ie")) {
 					System.setProperty("webdriver.ie.driver", path + "\\IEDriverServer.exe");
