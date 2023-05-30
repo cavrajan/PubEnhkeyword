@@ -258,7 +258,7 @@ public class KeywordWrapper {
 					System.setProperty("webdriver.firefox.driver", path + "\\geckodriver.exe");
 					driver = new FirefoxDriver();
 				} else if (browser.equalsIgnoreCase("Unixchrome")) {
-					System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/driver/chromedriver");
+					System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/driver/google-chrome");
 			//		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\driver\\chromedriver.exe");
 					driver = new ChromeDriver();
 				} else if (browser.equalsIgnoreCase("chrome")) {

@@ -44,12 +44,12 @@
       <![CDATA[STEP14]]>
     </line>
   </reporter-output>
-  <suite name="Sauce Demo Lab" duration-ms="9212" started-at="2023-05-30T16:09:20Z" finished-at="2023-05-30T16:09:29Z">
+  <suite name="Sauce Demo Lab" duration-ms="10048" started-at="2023-05-30T16:39:56Z" finished-at="2023-05-30T16:40:06Z">
     <groups>
     </groups>
-    <test name="Regression" duration-ms="9212" started-at="2023-05-30T16:09:20Z" finished-at="2023-05-30T16:09:29Z">
+    <test name="Regression" duration-ms="10048" started-at="2023-05-30T16:39:56Z" finished-at="2023-05-30T16:40:06Z">
       <class name="keywordDrivenExecute.FieldValidateScripts">
-        <test-method status="FAIL" signature="runScripts()[pri:0, instance:keywordDrivenExecute.FieldValidateScripts@6fffcba5]" name="runScripts" duration-ms="9202" started-at="2023-05-30T21:39:20Z" finished-at="2023-05-30T21:39:29Z">
+        <test-method status="FAIL" signature="runScripts()[pri:0, instance:keywordDrivenExecute.FieldValidateScripts@6fffcba5]" name="runScripts" duration-ms="10037" started-at="2023-05-30T22:09:56Z" finished-at="2023-05-30T22:10:06Z">
           <exception class="atu.testng.reports.exceptions.ATUReporterStepFailedException">
             <full-stacktrace>
               <![CDATA[[ATU Custom Reporter Step Failed Exception]
